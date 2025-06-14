@@ -99,3 +99,5 @@ For more details on each release, check the "Releases" section in the repository
 ---
 
 Thank you for choosing LiveLeaper! We hope you enjoy using it as much as we enjoyed creating it. Happy downloading!
+
+Copyright (c) 2025 yunfie_twitter
