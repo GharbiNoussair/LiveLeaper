@@ -1,69 +1,101 @@
-# LiveLeaper
+# LiveLeaper 🎥
 
-**LiveLeaper** is a Python tool for easily downloading YouTube videos.  
-It supports both a command line (CLI) version and a GUI version included as a sub-module.
+![LiveLeaper](https://img.shields.io/badge/LiveLeaper-YouTube%20Downloader-blue)
+
+Welcome to **LiveLeaper**, a powerful Python program designed to help you download videos from YouTube effortlessly. Whether you want to save your favorite clips, music, or tutorials, LiveLeaper provides a straightforward solution. 
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Formats](#supported-formats)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
+
+## Features
+
+- **Easy to Use**: Simple command-line interface for quick downloads.
+- **Multiple Formats**: Download videos in MP3, MP4, and more.
+- **Batch Downloads**: Download multiple videos at once.
+- **High Quality**: Choose the resolution you prefer.
+- **Lightweight**: Minimal system requirements.
+
+## Installation
+
+To install LiveLeaper, follow these steps:
+
+1. Ensure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/GharbiNoussair/LiveLeaper.git
+   ```
+3. Navigate to the directory:
+   ```bash
+   cd LiveLeaper
+   ```
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Using LiveLeaper is straightforward. Here’s how to get started:
+
+1. Open your terminal or command prompt.
+2. Navigate to the LiveLeaper directory.
+3. Run the program with the following command:
+   ```bash
+   python liveleaper.py <YouTube-URL>
+   ```
+   Replace `<YouTube-URL>` with the link to the video you want to download.
+
+4. Follow the prompts to select your desired format and quality.
+
+## Supported Formats
+
+LiveLeaper supports various formats for downloading:
+
+- **MP4**: For high-quality video playback.
+- **MP3**: Perfect for audio-only downloads.
+- **Other Formats**: Depending on the source video quality.
+
+## Contributing
+
+We welcome contributions to LiveLeaper! If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add YourFeature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out to us via GitHub issues or directly through the repository.
+
+## Releases
+
+You can find the latest releases of LiveLeaper [here](https://github.com/GharbiNoussair/LiveLeaper/releases). Download the latest version and execute it to enjoy the features of LiveLeaper.
+
+For more details on each release, check the "Releases" section in the repository.
 
 ---
 
-## ✅ Features
-
-- 🎬 **YouTube support** - supports downloading high quality videos (using `yt-dlp`)
-- 🖥️ **CLI & GUI both support** - can be used even by people who are not good with terminal
-- ⚡ **Fast and stable** - parses streaming URLs directly instead of official API
-- 🪟 **Multi-OS support** - runs on Windows / macOS / Linux.
-
-**Fast and stable** - parses streaming URLs directly instead of through official APIs
-
-## 🖥️ System Requirements
-
-- Python 3.8 or higher
-- OS: Windows 10+ / macOS 10.14+ / Debian Linux (Ubuntu, etc.)
-
-
-## 📦 Installation instructions
-
-```bash
-# Clone the repository (including submodules)
-git clone --recurse-submodules https://github.com/yunfie-twitter/LiveLeaper.git
-cd LiveLeaper
-
-# Install necessary packages
-pip install -r requirements.txt
-```
-
-## 🎛 Use the GUI version.
-```bash
-cd LiveLeaper-GUI
-pip install -r requirements.txt
-python main.py
-```
- [Click here to view the Github repository for GUI projects.](https://github.com/yunfie-twitter/LiveLeaper-GUI)
-
-## ⚙️ How to use the CLI version
-```bash
-python main.py [URL1 URL2 ...] [options].
-```
-
-Available options
-Option Description
---audio Extract and save audio only (according to default configuration file)
---ext Specify output file extension (e.g. mp4, webm, mp3)
---output Specify destination directory (e.g., downloads)
---lang Specify language file (e.g. en, ja)
---info Get only video information without downloading
-
-## 🤝 How to contribute
-Pull Requests and Issues are welcome!
-```bash
-# Create a branch
-git checkout -b feature/your-feature
-
-# Edit code and commit
-git commit -m “Add new feature”
-
-# Push to create a PR
-git push origin feature/your-feature
-```
-
-## [Sponsor this project By Ko-Fi](https://ko-fi.com/liveleaper).
-
+Thank you for choosing LiveLeaper! We hope you enjoy using it as much as we enjoyed creating it. Happy downloading!
